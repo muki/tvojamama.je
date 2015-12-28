@@ -1,0 +1,19 @@
+.centermycontentvertically {
+    text-align: center;
+}
+
+.centermycontentvertically::before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin-right: -0.25em;
+}
+
+.centermevertically {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+    position: relative;
+    margin: auto;
+}
