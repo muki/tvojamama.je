@@ -3,7 +3,6 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 // bower:scss
 @import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
 // endbower
-@import 'buttons';
 
 .browsehappy {
   margin: 0.2em 0;
@@ -12,9 +11,17 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
   padding: 0.2em 0;
 }
 
+$pink: #FDC5D0;
+$black: #110E00;
+
+@import 'shake';
+@import 'buttons';
+@import 'pills';
+@import 'icons';
+
 body {
-  background-color: #110E00;
-  color: #FDC5D0;
+  background-color: $black;
+  color: $pink;
 }
 
 h1 {
@@ -22,12 +29,12 @@ h1 {
   font-size: 50px;
   text-transform: uppercase;
 
-  border-top: 1px solid #FDC5D0;
-  border-bottom: 1px solid #FDC5D0;
+  border-top: 1px solid $pink;
+  border-bottom: 1px solid $pink;
 }
 
 .header {
-    height: 20px;
+    padding-top: 20px;
 }
 .footer {
     width: 100%;

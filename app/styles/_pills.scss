@@ -1,0 +1,19 @@
+.nav-pills li a {
+    border-radius: 0;
+    color: $pink;
+    text-transform: uppercase;
+    border: 1px solid $pink;
+}
+
+.nav-pills li.active a {
+    color: $black;
+    background-color: $pink;
+}
+.nav-pills li.active a:hover {
+    color: $black;
+    background-color: $pink;
+}
+.nav-pills li a:hover {
+    color: $black;
+    background-color: $pink;
+}
